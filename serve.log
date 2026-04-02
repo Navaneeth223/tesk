@@ -1,0 +1,13 @@
+ INFO  Accepting connections at http://localhost:4173
+ HTTP  2/4/2026 2:57:28 pm 127.0.0.1 GET /
+ HTTP  2/4/2026 2:57:28 pm 127.0.0.1 Returned 200 in 96 ms
+ HTTP  2/4/2026 2:59:48 pm 127.0.0.1 GET /
+ HTTP  2/4/2026 2:59:48 pm 127.0.0.1 Returned 200 in 73 ms
+ HTTP  2/4/2026 2:59:49 pm 127.0.0.1 GET /_expo/static/js/web/index-3ce541ba538a3aa810ae3d916cc20012.js
+ HTTP  2/4/2026 2:59:49 pm 127.0.0.1 Returned 200 in 35 ms
+ HTTP  2/4/2026 3:01:21 pm 127.0.0.1 GET /
+ HTTP  2/4/2026 3:01:21 pm 127.0.0.1 Returned 200 in 13 ms
+ HTTP  2/4/2026 3:01:21 pm 127.0.0.1 GET /_expo/static/js/web/index-3ce541ba538a3aa810ae3d916cc20012.js
+ HTTP  2/4/2026 3:01:21 pm 127.0.0.1 Returned 200 in 30 ms
+ HTTP  2/4/2026 3:01:21 pm 127.0.0.1 GET /favicon.ico
+ HTTP  2/4/2026 3:01:21 pm 127.0.0.1 Returned 200 in 23 ms
