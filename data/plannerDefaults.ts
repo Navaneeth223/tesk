@@ -1,0 +1,105 @@
+import { PersistedAppState } from '../types/planner';
+
+export const defaultAppState: PersistedAppState = {
+  plannerTab: 'focus',
+  tasksByTab: {
+    focus: [
+      {
+        id: 'screen',
+        title: 'Refine the main mobile flow',
+        detail: 'Keep the screen expressive, readable, and easy to build on.',
+        duration: '45 min',
+        completed: true,
+        energy: 'Medium',
+      },
+      {
+        id: 'state',
+        title: 'Add persisted planner state',
+        detail: 'Save tasks, sessions, settings, and the current planner tab.',
+        duration: '30 min',
+        completed: false,
+        energy: 'Light',
+      },
+      {
+        id: 'polish',
+        title: 'Finish the production polish pass',
+        detail: 'Wire haptics, feedback, and transitions so the app feels complete.',
+        duration: '60 min',
+        completed: false,
+        energy: 'Deep',
+      },
+    ],
+    sessions: [
+      {
+        id: 'session-review',
+        title: 'Prepare the next build review',
+        detail: 'Turn the session list into a navigable detail experience.',
+        duration: '35 min',
+        completed: false,
+        energy: 'Medium',
+      },
+      {
+        id: 'session-store',
+        title: 'Save session outcomes automatically',
+        detail: 'Persist progress between launches with graceful recovery.',
+        duration: '25 min',
+        completed: false,
+        energy: 'Light',
+      },
+    ],
+    analytics: [
+      {
+        id: 'analytics-summary',
+        title: 'Surface useful completion metrics',
+        detail: 'Show what is finished, what remains, and where focus is going.',
+        duration: '40 min',
+        completed: false,
+        energy: 'Deep',
+      },
+      {
+        id: 'analytics-detail',
+        title: 'Create a detailed stats screen',
+        detail: 'Let each session open into deeper performance insights.',
+        duration: '30 min',
+        completed: false,
+        energy: 'Medium',
+      },
+    ],
+  },
+  sessions: [
+    {
+      id: 'design-pass',
+      title: 'Design pass',
+      time: '09:00',
+      emphasis: 'Visual hierarchy',
+      durationMinutes: 45,
+      focusScore: 84,
+      completed: true,
+      note: 'The hero, cards, and spacing system are now aligned.',
+    },
+    {
+      id: 'build-sprint',
+      title: 'Build sprint',
+      time: '11:30',
+      emphasis: 'State and persistence',
+      durationMinutes: 60,
+      focusScore: 76,
+      completed: false,
+      note: 'Main state wiring is in progress and ready for persistence polish.',
+    },
+    {
+      id: 'review-block',
+      title: 'Review block',
+      time: '16:00',
+      emphasis: 'Polish and cleanup',
+      durationMinutes: 30,
+      focusScore: 91,
+      completed: false,
+      note: 'Use this session for QA, cleanup, and release readiness.',
+    },
+  ],
+  settings: {
+    darkMode: true,
+    notificationsEnabled: true,
+  },
+};
